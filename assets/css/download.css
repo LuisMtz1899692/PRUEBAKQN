@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*UPD*/
+.upd{
+    text-align: center;
+}
+.upd h1 {
+    text-align: center;
+}
+.upd h2 {
+    text-align: center;
+}
+
+.upd img {
+    width: 350px;
+    height: 200px;
+}
