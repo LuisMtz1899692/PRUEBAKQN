@@ -2,6 +2,112 @@ html, body{
     margin: 0;
     padding: 0;
 }
+/*INCIO CUTDOWN*/
+.butonServer{
+    padding: 25px;
+    border-radius: 50px;
+    background: #038b5a;
+    color: white;
+}
+.butonServer a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+.countdownserver{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #333;
+}
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.countdown div{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+span{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #74ffe7;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.final-sms{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.5s;
+    background-color: #333;
+}
+.final-sms h2{
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+}
+#days{
+    display: grid;
+    place-items: center;
+    border: solid 1px #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #04AA6D;
+}
+#hours{
+    display: grid;
+    place-items: center;
+    border: solid 1px #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #04AA6D;
+}
+#minutes{
+    display: grid;
+    place-items: center;
+    border: solid 1px #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #04AA6D;
+}
+#seconds{
+    display: grid;
+    place-items: center;
+    border: solid 1px #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #04AA6D;
+}
+/*FIN CUTDOWN*/
 .link-nav{
     color: white;
     background: #04AA6D;
