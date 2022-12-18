@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
 html, body{
     margin: 0;
     padding: 0;
@@ -20,6 +20,11 @@ html, body{
     font-size: 16px;
     text-decoration: none;
     color: white;
+}
+.countdownserver h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Hanalei Fill', cursive;
 }
 .countdownserver{
     width: 100%;
@@ -133,13 +138,6 @@ span{
     flex-direction: row;
     justify-content: space-around;
 }
-.info{
-    text-align: center;
-    font-family: sans-serif;
-}
-.info h2{
-    font-size: 20px;
-}
 .list-link li img{
     display: inline-block;
     margin: auto;
@@ -151,6 +149,18 @@ span{
     background: rgb(0, 0, 0);
     padding: 10px;
 }*/
+
+.info{
+    text-align: center;
+    font-family: 'Hanalei Fill', cursive;
+}
+.info h1{
+    font-size: 40px;
+    color: white;
+}
+.info h2{
+    font-size: 30px;
+}
 .navbar {
     display: block;
     flex: 1;
