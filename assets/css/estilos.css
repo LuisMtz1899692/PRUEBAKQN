@@ -36,10 +36,10 @@ html, body{
     background-color: #333;
 }
 .countdown{
-    display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 50%;
-    flex-wrap: wrap;
 }
 .countdown div{
     display: grid;
