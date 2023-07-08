@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mantenimiento</title>
-    <link rel="icon" href="assets/img/Windows-Update.png">
-    <link rel="stylesheet" href="assets/css/downserver.css">
-    <meta name="author" content="VirgoSC1519">
-    <meta name="Description" content="PAGINA CAIDA">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="assets/css/proyects.css">
+    <link rel="icon" href="assets/img/Vinduxlogo.png">
+    <meta name="author" content="luismtzC">
+    <meta name="Description" content="Proyectos">
     <script src="https://kit.fontawesome.com/54e04a308d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <header class="header">
         <div class="logo-header">
             <img src="assets/img/Vinduxlogo.png" alt="" srcset="">
             <div class="title-menu">
-                <h1>GTH SERVER</h1>
+                <h1>Vindux</h1>
             </div>
         </div>
         <div class="nav-menu">
@@ -27,18 +28,35 @@
             </label>
             <ul>
                 <li><a href="downserver.html" class="link-nav">Discord</a></li>
-                <li><a href="downserver.html" class="link-nav">Server Aternos</a></li>
                 <li><a href="downserver.html" class="link-nav">Zona De Descarga</a></li>
                 <li><a href="index.html">Home</a></li>
             </ul>
         </div>
     </header>
-    <div class="upd">
-        <h1>ESTAMOS TRABAJANDO PARA BRINDARLE UN MEJOR SERVICIO</h1>
-        <br>
-        <h2>Vuelva pronto</h2>
-        <br>
-        <img src="assets/img/loading-6.gif">
+    <div class="container">
+
+        <div class="cards">
+            <img src="assets/img/aternos.ico">
+            <h4>Vindux Server</h4>
+            <p>Anterior mente llamado GTH_SERVER es un Server Tradicional de Aternos Survival o Realm Segun sea la temporada</p>
+            <div class="online">
+                <img id="server-image" src="assets/img/loading.gif" alt="">
+                <div id="server-status">Cargando....</div>
+            </div>
+            <a href="update.html">Agregar Servidor</a>
+        </div>
+
+        <div class="cards">
+            <img src="assets/img/server2..png">
+            <h4>Server Survival</h4>
+            <p>Servidor Survival, Con Funcionalidades de clanes y proteccion de Casas, Buen Server para iniciar un survival</p>
+            <div class="online">
+                <img id="server-image2" src="assets/img/loading.gif" alt="">
+                <div id="server-status2">Cargando....</div>
+            </div>
+            <a href="minecraft://?addExternalServer=BoolyMC_Survival|mc.bycraft.us:25565">Agregar Servidor</a>
+        </div>
+           
     </div>
     <footer class="pie_pag">
         <div class="group1">
@@ -67,5 +85,6 @@
             <small>&copy; 2023 Todos los derechos Reservados Vindux</small>
         </div>
     </footer>
+    <script src="assets/js/serveronline.js"></script>
 </body>
 </html>
