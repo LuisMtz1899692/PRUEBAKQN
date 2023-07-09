@@ -189,43 +189,29 @@ header{
     }
 }
 /*INCIO CUTDOWN*/
-/*.butonServer{
-    padding: 25px;
-    border-radius: 50px;
-    background: #038b5a;
-    color: white;
-}
-.butonServer a{
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-}
-.countdownserver h1{
-    font-size: 40px;
-    color: white;
-    font-family: 'Hanalei Fill', cursive;
-}
-.countdownserver{
-    width: 100%;
-    min-height: 50vh;
+/*
+.countdown {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    background-color: #333;
+    align-items: center;
+    height: 50px;
 }
-.countdown{
-    align-items: center;
-    justify-content: center;
+.countdown h1 {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+#text{
     text-align: center;
-    width: 50%;
+    color: #fff;
+    font-size: 40px;
+    padding: 30px 10px;
 }
-.countdown div{
+  .countdown div{
     display: grid;
     place-items: center;
     padding: 10px;
 }
-span{
+  span{
     display: block;
     padding: 10px;
     text-align: center;
@@ -233,29 +219,12 @@ span{
     font-size: 1.5rem;
     font-weight: 400;
 }
-.final-sms{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 10px;
-    bottom: 0;
-    display: grid;
-    place-items: center;
-    transform: translateY(-100%);
-    transition: ease-in-out 0.5s;
-    background-color: #333;
-}
-.final-sms h2{
-    text-align: center;
-    font-size: 100px;
-    color: #fff;
-}
 #days{
     display: grid;
     place-items: center;
     border: solid 1px #fff;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     color: #fff;
     font-size: 2rem;
@@ -266,8 +235,8 @@ span{
     display: grid;
     place-items: center;
     border: solid 1px #fff;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     color: #fff;
     font-size: 2rem;
@@ -278,8 +247,8 @@ span{
     display: grid;
     place-items: center;
     border: solid 1px #fff;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     color: #fff;
     font-size: 2rem;
@@ -290,15 +259,15 @@ span{
     display: grid;
     place-items: center;
     border: solid 1px #fff;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     color: #fff;
     font-size: 2rem;
     font-weight: bold;
     background-color: #04AA6D;
-}*/
-
+}
+*/
 /*ZONA PREUBA*/
 /*.link-nav{
     color: white;
