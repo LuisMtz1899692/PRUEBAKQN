@@ -1,7 +1,7 @@
 function checkServerStatus() {
-    var serverIP = '185.107.192.114:37975'; // Reemplaza con la IP de tu servidor Minecraft
+    var serverIP = 'GthServer2023.aternos.me:29999'; // Reemplaza con la IP de tu servidor Minecraft
   
-    fetch('https://api.mcsrvstat.us/bedrock/2/' + serverIP)
+    fetch('https://api.mcsrvstat.us/2/' + serverIP)
       .then(response => response.json())
       .then(data => {
         var serverStatusElement = document.getElementById('server-status');
