@@ -441,3 +441,21 @@ span{
 #server-status2{
     font-family: 'Roboto',sans-serif;
 }
+
+#player-count{
+    font-family: 'Roboto',sans-serif;
+}
+
+#server-onlineimg{
+    width: 20px;
+    height: 20px;
+}
+
+#player-count2{
+    font-family: 'Roboto',sans-serif;
+}
+
+#server-onlineimg2{
+    width: 20px;
+    height: 20px;
+}
