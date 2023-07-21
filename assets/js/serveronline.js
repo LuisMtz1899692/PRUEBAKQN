@@ -1,5 +1,5 @@
 function checkServerStatus() {
-    var serverIP = 'boolymc.net'; // Reemplaza con la IP de tu servidor Minecraft
+    var serverIP = '0.0..0.0.'; // Reemplaza con la IP de tu servidor Minecraft
   
     fetch('https://api.mcsrvstat.us/2/' + serverIP)
       .then(response => response.json())

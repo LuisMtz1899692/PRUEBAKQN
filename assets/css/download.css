@@ -407,4 +407,11 @@ span{
     background: rgb(27, 27, 27);
 }
 
+#upd{
+    width: 255px;
+    height: 150px;
+}
 
+#pcolor{
+    color: #fff;
+}
