@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTP REALMS</title>
-    <link rel="stylesheet" href="/assets/css/indexstyle2.css">
+    <link rel="stylesheet" href="/assets/css/Realmstyle.css.css">
     <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
 </head>
 <body>
@@ -155,7 +155,49 @@
             </div>
           </section>
           
-    <script src="/assets/js/timeweather.js"></script>
-    <script src="/assets/js/cutdown.js"></script>
+    <script >
+      const apiKey = '122bbc7b341c6b707186946abde3476c'; // Reemplaza con tu API Key gratuita
+
+// Función para obtener y mostrar el clima
+function fetchWeather(city, tempElementId, descElementId) {
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=es&appid=${apiKey}`)
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById(tempElementId).textContent = `Temperature: ${data.main.temp}°C`;
+      document.getElementById(descElementId).textContent = `Condition: ${data.weather[0].description}`;
+    })
+    .catch(error => {
+      console.error(`Error fetching weather for ${city}:`, error);
+    });
+}
+
+// Consultar clima para Galeana y Monterrey
+fetchWeather('Galeana, MX', 'galeana-temp', 'galeana-desc');
+fetchWeather('Monterrey, MX', 'monterrey-temp', 'monterrey-desc');
+
+    </script>
+    <script>  // Define la fecha y hora objetivo
+      const targetDate = new Date("2025-02-12T23:59:59").getTime();
+    
+      function updateCountdown() {
+        const now = new Date().getTime();
+        const timeLeft = targetDate - now;
+    
+        if (timeLeft < 0) {
+          document.getElementById("countdown-timer").innerHTML = "¡Tiempo agotado!";
+          return;
+        }
+    
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+    
+        document.getElementById("countdown-timer").innerHTML = 
+          `${days}d ${hours}h ${minutes}m ${seconds}s`;
+      }
+    
+      // Actualiza la cuenta regresiva cada segundo
+      setInterval(updateCountdown, 1000);</script>
 </body>
 </html>
